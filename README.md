@@ -1,0 +1,3 @@
+CVSKPD is an extension of SKPD: https://github.com/sanyouwu/SKPD/blob/main/SKPD/SKPD.py
+The cyclicvoxel.py pre-processes the SKPD model by first applying a 3D median filter to the data and then computing the cyclic voxel representation of the data. The cyclic voxel representation involves interpolating and filtering the data and then extracting the phase information from the transformed data.
+The cvskpd.py further extends the model by implementing the SKPD algorithm and adding additional functionality such as support for different types of data and the ability to specify different parameters for the model. The cvskpd.py also includes functions for computing the cyclic voxel representation of the data and for computing the phase information from the transformed data.
